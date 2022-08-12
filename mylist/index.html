@@ -21,7 +21,8 @@
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
   <!-- import head_begin begin -->
-      <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3568789_1bibr4rulwj.css">
+      <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3568789_ivfd3d1t88r.css">
+      <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/font-awesome-animation.min.css">
   <!-- import head_begin end -->
   <!-- Custom Files headBegin begin-->
   
@@ -1612,7 +1613,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.d9437285.js","rightMenus":"/js/plugins/rightMenus.1aa99ff1.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.0e52f222.js"},"css":{"style":"/css/style.cea61f98.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1660322072861),
+    lastupdate: new Date(1660329467044),
     sidebar: {
       for_page: ["blogger","repos","category","tagcloud","donate","webinfo"],
       for_post: ["toc"],
@@ -2063,20 +2064,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="博客"
+                 href="/" onclick="return false;" title="文章"
                   
                   
-                  
-                    active-action="action-home"
                   >
-                  <i class='iconfont fa6-diannao fa-fw'></i>博客
+                  <i class='fas iconfont fa6-diannao faa-shake animated fa-fw'></i>文章
                 </a>
                 
-              </li>
-            
-          
-          
-            
+                  <ul class="list-v">
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2092,8 +2089,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               </li>
             
           
-          
-            
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2103,14 +2100,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                     active-action="action-tags"
                   >
-                  <i class='iconfont fa6-a-bianzu39 fa-fw'></i>标签
+                  <i class='iconfont fa6-biaoqian fa-fw'></i>标签
                 </a>
                 
               </li>
             
           
-          
-            
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2126,8 +2123,27 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               </li>
             
           
+                    
+                  </ul>
+                
+              </li>
+            
+          
           
             
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                 href="/" onclick="return false;" title="社交"
+                  
+                  
+                  >
+                  <i class='fas iconfont fa6-xingqiu faa-tada animated fa-fw'></i>社交
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2143,18 +2159,41 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               </li>
             
           
+                    
+                  </ul>
+                
+              </li>
+            
+          
           
             
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
+                href="/Software/" title="软件"
+                  
+                  
+                  
+                    active-action="action-Software"
+                  >
+                  <i class='fas iconfont fa6-yingyong faa-pulse animated fa-fw'></i>软件
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/about/" title="关于我"
                   
                   
                   
                     active-action="action-about"
                   >
-                  <i class='iconfont fa6-a-Frame12 fa-fw'></i>关于
+                  <i class='iconfont fa6-a-bianzu15 fa-fw'></i>关于我
                 </a>
                 
               </li>
@@ -2169,7 +2208,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                   
                   >
-                  <i class='iconfont fa6-huojian fa-fw'></i>好玩
+                  <i class='fas iconfont fa6-huojian faa-float animated fa-fw'></i>好玩
                 </a>
                 
                   <ul class="list-v">
@@ -2184,7 +2223,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                     active-action="action-chisha"
                   >
-                  <i class='iconfont fa6-a-Frame20 fa-fw'></i>今天吃什么
+                  <i class='fas iconfont fa6-a-bianzu39 faa-spin animated fa-fw'></i>今天吃什么
                 </a>
                 
               </li>
@@ -2220,20 +2259,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="博客"
+                 href="/" onclick="return false;" title="文章"
                   
                   
-                  
-                    active-action="action-home"
                   >
-                  <i class='iconfont fa6-diannao fa-fw'></i>博客
+                  <i class='fas iconfont fa6-diannao faa-shake animated fa-fw'></i>文章
                 </a>
                 
-              </li>
-            
-          
-            
-              
+                  <ul class="list-v">
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2249,8 +2284,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               </li>
             
           
-            
-              
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2260,14 +2295,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                     active-action="action-tags"
                   >
-                  <i class='iconfont fa6-a-bianzu39 fa-fw'></i>标签
+                  <i class='iconfont fa6-biaoqian fa-fw'></i>标签
                 </a>
                 
               </li>
             
           
-            
-              
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2283,8 +2318,27 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               </li>
             
           
+                    
+                  </ul>
+                
+              </li>
+            
+          
             
               
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                 href="/" onclick="return false;" title="社交"
+                  
+                  
+                  >
+                  <i class='fas iconfont fa6-xingqiu faa-tada animated fa-fw'></i>社交
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
@@ -2300,18 +2354,41 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               </li>
             
           
+                    
+                  </ul>
+                
+              </li>
+            
+          
             
               
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
+                href="/Software/" title="软件"
+                  
+                  
+                  
+                    active-action="action-Software"
+                  >
+                  <i class='fas iconfont fa6-yingyong faa-pulse animated fa-fw'></i>软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/about/" title="关于我"
                   
                   
                   
                     active-action="action-about"
                   >
-                  <i class='iconfont fa6-a-Frame12 fa-fw'></i>关于
+                  <i class='iconfont fa6-a-bianzu15 fa-fw'></i>关于我
                 </a>
                 
               </li>
@@ -2326,7 +2403,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                   
                   >
-                  <i class='iconfont fa6-huojian fa-fw'></i>好玩
+                  <i class='fas iconfont fa6-huojian faa-float animated fa-fw'></i>好玩
                 </a>
                 
                   <ul class="list-v">
@@ -2341,7 +2418,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                   
                     active-action="action-chisha"
                   >
-                  <i class='iconfont fa6-a-Frame20 fa-fw'></i>今天吃什么
+                  <i class='fas iconfont fa6-a-bianzu39 faa-spin animated fa-fw'></i>今天吃什么
                 </a>
                 
               </li>
@@ -2437,29 +2514,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='menu navigation'>
       <div class='list-h'>
         
-          
-            <a href="/tags/"
-              
-              
-              active-action="action-tags">
-              <p>标签</p>
-            </a>
-          
-            <a href="/archives/"
-              
-              
-              active-action="action-archives">
-              <p>归档</p>
-            </a>
-          
-            <a href="/Software/"
-              
-              
-              active-action="action-Software">
-              <p>软件</p>
-            </a>
-          
-        
       </div>
     </div>
   </div>
@@ -2535,8 +2589,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class="social-wrapper">
         
           
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
+            <a href="mailto:1633833317@qq.com"
+              class="social iconfont fa6-tongxun flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -2544,8 +2598,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <a href="mailto:1633833317@qq.com"
-              class="social fa-solid fa-envelope flat-btn"
+            <a href="/atom.xml"
+              class="social iconfont fa6-zhanghao flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -2554,7 +2608,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
             <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
+              class="social iconfont fa6-dianzan flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
@@ -2562,8 +2616,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
+            <a href="/Software/"
+              class="social iconfont fa6-yingyong flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
               
